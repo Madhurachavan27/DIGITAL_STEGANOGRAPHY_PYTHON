@@ -1,0 +1,581 @@
+What is steganography?
+Steganography is the technique of hiding data within an ordinary, nonsecret file or message to avoid detection; the hidden data is then extracted at its destination. Steganography use can be combined with encryption as an extra step for hiding or protecting data. The word steganography is derived from the Greek word steganos, meaning "hidden or covered," and the Greek root graph, meaning "to write."
+
+Steganography can be used to conceal almost any type of digital content, including text, image, video or audio content. The secret data can be hidden inside almost any other type of digital content. The content to be concealed through steganography -- called hidden text -- is often encrypted before being incorporated into the innocuous-seeming cover text file or data stream. If not encrypted, the hidden text is commonly processed in some method to increase the difficulty of detecting the secret content.
+
+What are some examples of steganography?
+Steganography is practiced by those wishing to convey a secret message or code. While there are many legitimate uses for steganography, some malware developers use steganography to obscure the transmission of malicious code -- known as stegware.
+
+Forms of steganography have been used for centuries and include almost any technique for hiding a secret message in an otherwise harmless container. For example, using invisible ink to hide secret messages in otherwise inoffensive messages; hiding documents recorded on microdot, which can be as small as 1 millimeter in diameter; hiding messages on or inside legitimate-seeming correspondence; and even using multiplayer gaming environments to share information.
+
+How is steganography used today?
+In modern digital steganography, data is first encrypted or obfuscated, and then inserted using a special algorithm into data that is part of a particular file format, such as a JPEG image, audio or video file. The secret message can be embedded into ordinary data files in many ways. One technique is to hide data in bits that represent the same color pixels repeated in a row in an image file. By applying the encrypted data to this redundant data in an inconspicuous way, the result is an image file that appears identical to the original image, but has noise patterns of regular, unencrypted data.
+
+The practice of adding a watermark -- a trademark or other identifying data hidden in multimedia or other content files -- is a common use of steganography. Online publishers often use watermarking to identify the source of media files that are being shared without permission.
+
+While there are many different uses of steganography, including embedding sensitive information into file types, one of the most common techniques is to embed a text file into an image file. When done correctly, anyone viewing the image file should not see a difference between the original image file and the altered file; this is accomplished by storing the message with less significant bites in the data file. This process can be completed manually or by using a steganography tool.
+
+What are the advantages of steganography over cryptography?
+Steganography is distinct from cryptography. Using both together can help improve the security of the protected information and prevent detection of the secret communication. If steganographically hidden data is also encrypted, the data might still be safe from detection -- though the channel will no longer be safe from detection. There are advantages to using steganography combined with encryption over encryption-only communication.
+
+The primary advantage of using steganography to hide data over cryptography is that it helps obscure the fact that sensitive data is hidden in the file or other content carrying the hidden text. Whereas an encrypted file, message or network packet payload is clearly marked and identifiable as such, using steganographic techniques helps to obscure the presence of a secure channel.
+
+Steganography software
+Steganography software is used to perform a variety of functions, including the following:
+
+Hiding data, including encoding the data to prepare it to be hidden inside another file.
+Keeping track of which bits of the cover text file contain hidden data.
+Encrypting the data to be hidden.
+Extracting hidden data by its intended recipient.
+Proprietary and open source programs are available to do steganography. OpenStego is one open source steganography program. Other programs can be characterized by the types of data that can be hidden, as well as what types of files that data can be hidden inside. Some online steganography software tools include Xiao Steganography, used to hide secret files in BMP images or WAV files; Image Steganography, a JavaScript tool that hides images inside other image files; and Crypture, a command-line tool.What is steganography?
+Steganography is the technique of hiding data within an ordinary, nonsecret file or message to avoid detection; the hidden data is then extracted at its destination. Steganography use can be combined with encryption as an extra step for hiding or protecting data. The word steganography is derived from the Greek word steganos, meaning "hidden or covered," and the Greek root graph, meaning "to write."
+
+Steganography can be used to conceal almost any type of digital content, including text, image, video or audio content. The secret data can be hidden inside almost any other type of digital content. The content to be concealed through steganography -- called hidden text -- is often encrypted before being incorporated into the innocuous-seeming cover text file or data stream. If not encrypted, the hidden text is commonly processed in some method to increase the difficulty of detecting the secret content.
+
+What are some examples of steganography?
+Steganography is practiced by those wishing to convey a secret message or code. While there are many legitimate uses for steganography, some malware developers use steganography to obscure the transmission of malicious code -- known as stegware.
+
+Forms of steganography have been used for centuries and include almost any technique for hiding a secret message in an otherwise harmless container. For example, using invisible ink to hide secret messages in otherwise inoffensive messages; hiding documents recorded on microdot, which can be as small as 1 millimeter in diameter; hiding messages on or inside legitimate-seeming correspondence; and even using multiplayer gaming environments to share information.
+
+How is steganography used today?
+In modern digital steganography, data is first encrypted or obfuscated, and then inserted using a special algorithm into data that is part of a particular file format, such as a JPEG image, audio or video file. The secret message can be embedded into ordinary data files in many ways. One technique is to hide data in bits that represent the same color pixels repeated in a row in an image file. By applying the encrypted data to this redundant data in an inconspicuous way, the result is an image file that appears identical to the original image, but has noise patterns of regular, unencrypted data.
+
+The practice of adding a watermark -- a trademark or other identifying data hidden in multimedia or other content files -- is a common use of steganography. Online publishers often use watermarking to identify the source of media files that are being shared without permission.
+
+While there are many different uses of steganography, including embedding sensitive information into file types, one of the most common techniques is to embed a text file into an image file. When done correctly, anyone viewing the image file should not see a difference between the original image file and the altered file; this is accomplished by storing the message with less significant bites in the data file. This process can be completed manually or by using a steganography tool.
+
+What are the advantages of steganography over cryptography?
+Steganography is distinct from cryptography. Using both together can help improve the security of the protected information and prevent detection of the secret communication. If steganographically hidden data is also encrypted, the data might still be safe from detection -- though the channel will no longer be safe from detection. There are advantages to using steganography combined with encryption over encryption-only communication.
+
+The primary advantage of using steganography to hide data over cryptography is that it helps obscure the fact that sensitive data is hidden in the file or other content carrying the hidden text. Whereas an encrypted file, message or network packet payload is clearly marked and identifiable as such, using steganographic techniques helps to obscure the presence of a secure channel.
+
+Steganography software
+Steganography software is used to perform a variety of functions, including the following:
+
+Hiding data, including encoding the data to prepare it to be hidden inside another file.
+Keeping track of which bits of the cover text file contain hidden data.
+Encrypting the data to be hidden.
+Extracting hidden data by its intended recipient.
+Proprietary and open source programs are available to do steganography. OpenStego is one open source steganography program. Other programs can be characterized by the types of data that can be hidden, as well as what types of files that data can be hidden inside. Some online steganography software tools include Xiao Steganography, used to hide secret files in BMP images or WAV files; Image Steganography, a JavaScript tool that hides images inside other image files; and Crypture, a command-line tool.What is steganography?
+Steganography is the technique of hiding data within an ordinary, nonsecret file or message to avoid detection; the hidden data is then extracted at its destination. Steganography use can be combined with encryption as an extra step for hiding or protecting data. The word steganography is derived from the Greek word steganos, meaning "hidden or covered," and the Greek root graph, meaning "to write."
+
+Steganography can be used to conceal almost any type of digital content, including text, image, video or audio content. The secret data can be hidden inside almost any other type of digital content. The content to be concealed through steganography -- called hidden text -- is often encrypted before being incorporated into the innocuous-seeming cover text file or data stream. If not encrypted, the hidden text is commonly processed in some method to increase the difficulty of detecting the secret content.
+
+What are some examples of steganography?
+Steganography is practiced by those wishing to convey a secret message or code. While there are many legitimate uses for steganography, some malware developers use steganography to obscure the transmission of malicious code -- known as stegware.
+
+Forms of steganography have been used for centuries and include almost any technique for hiding a secret message in an otherwise harmless container. For example, using invisible ink to hide secret messages in otherwise inoffensive messages; hiding documents recorded on microdot, which can be as small as 1 millimeter in diameter; hiding messages on or inside legitimate-seeming correspondence; and even using multiplayer gaming environments to share information.
+
+How is steganography used today?
+In modern digital steganography, data is first encrypted or obfuscated, and then inserted using a special algorithm into data that is part of a particular file format, such as a JPEG image, audio or video file. The secret message can be embedded into ordinary data files in many ways. One technique is to hide data in bits that represent the same color pixels repeated in a row in an image file. By applying the encrypted data to this redundant data in an inconspicuous way, the result is an image file that appears identical to the original image, but has noise patterns of regular, unencrypted data.
+
+The practice of adding a watermark -- a trademark or other identifying data hidden in multimedia or other content files -- is a common use of steganography. Online publishers often use watermarking to identify the source of media files that are being shared without permission.
+
+While there are many different uses of steganography, including embedding sensitive information into file types, one of the most common techniques is to embed a text file into an image file. When done correctly, anyone viewing the image file should not see a difference between the original image file and the altered file; this is accomplished by storing the message with less significant bites in the data file. This process can be completed manually or by using a steganography tool.
+
+What are the advantages of steganography over cryptography?
+Steganography is distinct from cryptography. Using both together can help improve the security of the protected information and prevent detection of the secret communication. If steganographically hidden data is also encrypted, the data might still be safe from detection -- though the channel will no longer be safe from detection. There are advantages to using steganography combined with encryption over encryption-only communication.
+
+The primary advantage of using steganography to hide data over cryptography is that it helps obscure the fact that sensitive data is hidden in the file or other content carrying the hidden text. Whereas an encrypted file, message or network packet payload is clearly marked and identifiable as such, using steganographic techniques helps to obscure the presence of a secure channel.
+
+Steganography software
+Steganography software is used to perform a variety of functions, including the following:
+
+Hiding data, including encoding the data to prepare it to be hidden inside another file.
+Keeping track of which bits of the cover text file contain hidden data.
+Encrypting the data to be hidden.
+Extracting hidden data by its intended recipient.
+Proprietary and open source programs are available to do steganography. OpenStego is one open source steganography program. Other programs can be characterized by the types of data that can be hidden, as well as what types of files that data can be hidden inside. Some online steganography software tools include Xiao Steganography, used to hide secret files in BMP images or WAV files; Image Steganography, a JavaScript tool that hides images inside other image files; and Crypture, a command-line tool.What is steganography?
+Steganography is the technique of hiding data within an ordinary, nonsecret file or message to avoid detection; the hidden data is then extracted at its destination. Steganography use can be combined with encryption as an extra step for hiding or protecting data. The word steganography is derived from the Greek word steganos, meaning "hidden or covered," and the Greek root graph, meaning "to write."
+
+Steganography can be used to conceal almost any type of digital content, including text, image, video or audio content. The secret data can be hidden inside almost any other type of digital content. The content to be concealed through steganography -- called hidden text -- is often encrypted before being incorporated into the innocuous-seeming cover text file or data stream. If not encrypted, the hidden text is commonly processed in some method to increase the difficulty of detecting the secret content.
+
+What are some examples of steganography?
+Steganography is practiced by those wishing to convey a secret message or code. While there are many legitimate uses for steganography, some malware developers use steganography to obscure the transmission of malicious code -- known as stegware.
+
+Forms of steganography have been used for centuries and include almost any technique for hiding a secret message in an otherwise harmless container. For example, using invisible ink to hide secret messages in otherwise inoffensive messages; hiding documents recorded on microdot, which can be as small as 1 millimeter in diameter; hiding messages on or inside legitimate-seeming correspondence; and even using multiplayer gaming environments to share information.
+
+How is steganography used today?
+In modern digital steganography, data is first encrypted or obfuscated, and then inserted using a special algorithm into data that is part of a particular file format, such as a JPEG image, audio or video file. The secret message can be embedded into ordinary data files in many ways. One technique is to hide data in bits that represent the same color pixels repeated in a row in an image file. By applying the encrypted data to this redundant data in an inconspicuous way, the result is an image file that appears identical to the original image, but has noise patterns of regular, unencrypted data.
+
+The practice of adding a watermark -- a trademark or other identifying data hidden in multimedia or other content files -- is a common use of steganography. Online publishers often use watermarking to identify the source of media files that are being shared without permission.
+
+While there are many different uses of steganography, including embedding sensitive information into file types, one of the most common techniques is to embed a text file into an image file. When done correctly, anyone viewing the image file should not see a difference between the original image file and the altered file; this is accomplished by storing the message with less significant bites in the data file. This process can be completed manually or by using a steganography tool.
+
+What are the advantages of steganography over cryptography?
+Steganography is distinct from cryptography. Using both together can help improve the security of the protected information and prevent detection of the secret communication. If steganographically hidden data is also encrypted, the data might still be safe from detection -- though the channel will no longer be safe from detection. There are advantages to using steganography combined with encryption over encryption-only communication.
+
+The primary advantage of using steganography to hide data over cryptography is that it helps obscure the fact that sensitive data is hidden in the file or other content carrying the hidden text. Whereas an encrypted file, message or network packet payload is clearly marked and identifiable as such, using steganographic techniques helps to obscure the presence of a secure channel.
+
+Steganography software
+Steganography software is used to perform a variety of functions, including the following:
+
+Hiding data, including encoding the data to prepare it to be hidden inside another file.
+Keeping track of which bits of the cover text file contain hidden data.
+Encrypting the data to be hidden.
+Extracting hidden data by its intended recipient.
+Proprietary and open source programs are available to do steganography. OpenStego is one open source steganography program. Other programs can be characterized by the types of data that can be hidden, as well as what types of files that data can be hidden inside. Some online steganography software tools include Xiao Steganography, used to hide secret files in BMP images or WAV files; Image Steganography, a JavaScript tool that hides images inside other image files; and Crypture, a command-line tool.What is steganography?
+Steganography is the technique of hiding data within an ordinary, nonsecret file or message to avoid detection; the hidden data is then extracted at its destination. Steganography use can be combined with encryption as an extra step for hiding or protecting data. The word steganography is derived from the Greek word steganos, meaning "hidden or covered," and the Greek root graph, meaning "to write."
+
+Steganography can be used to conceal almost any type of digital content, including text, image, video or audio content. The secret data can be hidden inside almost any other type of digital content. The content to be concealed through steganography -- called hidden text -- is often encrypted before being incorporated into the innocuous-seeming cover text file or data stream. If not encrypted, the hidden text is commonly processed in some method to increase the difficulty of detecting the secret content.
+
+What are some examples of steganography?
+Steganography is practiced by those wishing to convey a secret message or code. While there are many legitimate uses for steganography, some malware developers use steganography to obscure the transmission of malicious code -- known as stegware.
+
+Forms of steganography have been used for centuries and include almost any technique for hiding a secret message in an otherwise harmless container. For example, using invisible ink to hide secret messages in otherwise inoffensive messages; hiding documents recorded on microdot, which can be as small as 1 millimeter in diameter; hiding messages on or inside legitimate-seeming correspondence; and even using multiplayer gaming environments to share information.
+
+How is steganography used today?
+In modern digital steganography, data is first encrypted or obfuscated, and then inserted using a special algorithm into data that is part of a particular file format, such as a JPEG image, audio or video file. The secret message can be embedded into ordinary data files in many ways. One technique is to hide data in bits that represent the same color pixels repeated in a row in an image file. By applying the encrypted data to this redundant data in an inconspicuous way, the result is an image file that appears identical to the original image, but has noise patterns of regular, unencrypted data.
+
+The practice of adding a watermark -- a trademark or other identifying data hidden in multimedia or other content files -- is a common use of steganography. Online publishers often use watermarking to identify the source of media files that are being shared without permission.
+
+While there are many different uses of steganography, including embedding sensitive information into file types, one of the most common techniques is to embed a text file into an image file. When done correctly, anyone viewing the image file should not see a difference between the original image file and the altered file; this is accomplished by storing the message with less significant bites in the data file. This process can be completed manually or by using a steganography tool.
+
+What are the advantages of steganography over cryptography?
+Steganography is distinct from cryptography. Using both together can help improve the security of the protected information and prevent detection of the secret communication. If steganographically hidden data is also encrypted, the data might still be safe from detection -- though the channel will no longer be safe from detection. There are advantages to using steganography combined with encryption over encryption-only communication.
+
+The primary advantage of using steganography to hide data over cryptography is that it helps obscure the fact that sensitive data is hidden in the file or other content carrying the hidden text. Whereas an encrypted file, message or network packet payload is clearly marked and identifiable as such, using steganographic techniques helps to obscure the presence of a secure channel.
+
+Steganography software
+Steganography software is used to perform a variety of functions, including the following:
+
+Hiding data, including encoding the data to prepare it to be hidden inside another file.
+Keeping track of which bits of the cover text file contain hidden data.
+Encrypting the data to be hidden.
+Extracting hidden data by its intended recipient.
+Proprietary and open source programs are available to do steganography. OpenStego is one open source steganography program. Other programs can be characterized by the types of data that can be hidden, as well as what types of files that data can be hidden inside. Some online steganography software tools include Xiao Steganography, used to hide secret files in BMP images or WAV files; Image Steganography, a JavaScript tool that hides images inside other image files; and Crypture, a command-line tool.What is steganography?
+Steganography is the technique of hiding data within an ordinary, nonsecret file or message to avoid detection; the hidden data is then extracted at its destination. Steganography use can be combined with encryption as an extra step for hiding or protecting data. The word steganography is derived from the Greek word steganos, meaning "hidden or covered," and the Greek root graph, meaning "to write."
+
+Steganography can be used to conceal almost any type of digital content, including text, image, video or audio content. The secret data can be hidden inside almost any other type of digital content. The content to be concealed through steganography -- called hidden text -- is often encrypted before being incorporated into the innocuous-seeming cover text file or data stream. If not encrypted, the hidden text is commonly processed in some method to increase the difficulty of detecting the secret content.
+
+What are some examples of steganography?
+Steganography is practiced by those wishing to convey a secret message or code. While there are many legitimate uses for steganography, some malware developers use steganography to obscure the transmission of malicious code -- known as stegware.
+
+Forms of steganography have been used for centuries and include almost any technique for hiding a secret message in an otherwise harmless container. For example, using invisible ink to hide secret messages in otherwise inoffensive messages; hiding documents recorded on microdot, which can be as small as 1 millimeter in diameter; hiding messages on or inside legitimate-seeming correspondence; and even using multiplayer gaming environments to share information.
+
+How is steganography used today?
+In modern digital steganography, data is first encrypted or obfuscated, and then inserted using a special algorithm into data that is part of a particular file format, such as a JPEG image, audio or video file. The secret message can be embedded into ordinary data files in many ways. One technique is to hide data in bits that represent the same color pixels repeated in a row in an image file. By applying the encrypted data to this redundant data in an inconspicuous way, the result is an image file that appears identical to the original image, but has noise patterns of regular, unencrypted data.
+
+The practice of adding a watermark -- a trademark or other identifying data hidden in multimedia or other content files -- is a common use of steganography. Online publishers often use watermarking to identify the source of media files that are being shared without permission.
+
+While there are many different uses of steganography, including embedding sensitive information into file types, one of the most common techniques is to embed a text file into an image file. When done correctly, anyone viewing the image file should not see a difference between the original image file and the altered file; this is accomplished by storing the message with less significant bites in the data file. This process can be completed manually or by using a steganography tool.
+
+What are the advantages of steganography over cryptography?
+Steganography is distinct from cryptography. Using both together can help improve the security of the protected information and prevent detection of the secret communication. If steganographically hidden data is also encrypted, the data might still be safe from detection -- though the channel will no longer be safe from detection. There are advantages to using steganography combined with encryption over encryption-only communication.
+
+The primary advantage of using steganography to hide data over cryptography is that it helps obscure the fact that sensitive data is hidden in the file or other content carrying the hidden text. Whereas an encrypted file, message or network packet payload is clearly marked and identifiable as such, using steganographic techniques helps to obscure the presence of a secure channel.
+
+Steganography software
+Steganography software is used to perform a variety of functions, including the following:
+
+Hiding data, including encoding the data to prepare it to be hidden inside another file.
+Keeping track of which bits of the cover text file contain hidden data.
+Encrypting the data to be hidden.
+Extracting hidden data by its intended recipient.
+Proprietary and open source programs are available to do steganography. OpenStego is one open source steganography program. Other programs can be characterized by the types of data that can be hidden, as well as what types of files that data can be hidden inside. Some online steganography software tools include Xiao Steganography, used to hide secret files in BMP images or WAV files; Image Steganography, a JavaScript tool that hides images inside other image files; and Crypture, a command-line tool.What is steganography?
+Steganography is the technique of hiding data within an ordinary, nonsecret file or message to avoid detection; the hidden data is then extracted at its destination. Steganography use can be combined with encryption as an extra step for hiding or protecting data. The word steganography is derived from the Greek word steganos, meaning "hidden or covered," and the Greek root graph, meaning "to write."
+
+Steganography can be used to conceal almost any type of digital content, including text, image, video or audio content. The secret data can be hidden inside almost any other type of digital content. The content to be concealed through steganography -- called hidden text -- is often encrypted before being incorporated into the innocuous-seeming cover text file or data stream. If not encrypted, the hidden text is commonly processed in some method to increase the difficulty of detecting the secret content.
+
+What are some examples of steganography?
+Steganography is practiced by those wishing to convey a secret message or code. While there are many legitimate uses for steganography, some malware developers use steganography to obscure the transmission of malicious code -- known as stegware.
+
+Forms of steganography have been used for centuries and include almost any technique for hiding a secret message in an otherwise harmless container. For example, using invisible ink to hide secret messages in otherwise inoffensive messages; hiding documents recorded on microdot, which can be as small as 1 millimeter in diameter; hiding messages on or inside legitimate-seeming correspondence; and even using multiplayer gaming environments to share information.
+
+How is steganography used today?
+In modern digital steganography, data is first encrypted or obfuscated, and then inserted using a special algorithm into data that is part of a particular file format, such as a JPEG image, audio or video file. The secret message can be embedded into ordinary data files in many ways. One technique is to hide data in bits that represent the same color pixels repeated in a row in an image file. By applying the encrypted data to this redundant data in an inconspicuous way, the result is an image file that appears identical to the original image, but has noise patterns of regular, unencrypted data.
+
+The practice of adding a watermark -- a trademark or other identifying data hidden in multimedia or other content files -- is a common use of steganography. Online publishers often use watermarking to identify the source of media files that are being shared without permission.
+
+While there are many different uses of steganography, including embedding sensitive information into file types, one of the most common techniques is to embed a text file into an image file. When done correctly, anyone viewing the image file should not see a difference between the original image file and the altered file; this is accomplished by storing the message with less significant bites in the data file. This process can be completed manually or by using a steganography tool.
+
+What are the advantages of steganography over cryptography?
+Steganography is distinct from cryptography. Using both together can help improve the security of the protected information and prevent detection of the secret communication. If steganographically hidden data is also encrypted, the data might still be safe from detection -- though the channel will no longer be safe from detection. There are advantages to using steganography combined with encryption over encryption-only communication.
+
+The primary advantage of using steganography to hide data over cryptography is that it helps obscure the fact that sensitive data is hidden in the file or other content carrying the hidden text. Whereas an encrypted file, message or network packet payload is clearly marked and identifiable as such, using steganographic techniques helps to obscure the presence of a secure channel.
+
+Steganography software
+Steganography software is used to perform a variety of functions, including the following:
+
+Hiding data, including encoding the data to prepare it to be hidden inside another file.
+Keeping track of which bits of the cover text file contain hidden data.
+Encrypting the data to be hidden.
+Extracting hidden data by its intended recipient.
+Proprietary and open source programs are available to do steganography. OpenStego is one open source steganography program. Other programs can be characterized by the types of data that can be hidden, as well as what types of files that data can be hidden inside. Some online steganography software tools include Xiao Steganography, used to hide secret files in BMP images or WAV files; Image Steganography, a JavaScript tool that hides images inside other image files; and Crypture, a command-line tool.What is steganography?
+Steganography is the technique of hiding data within an ordinary, nonsecret file or message to avoid detection; the hidden data is then extracted at its destination. Steganography use can be combined with encryption as an extra step for hiding or protecting data. The word steganography is derived from the Greek word steganos, meaning "hidden or covered," and the Greek root graph, meaning "to write."
+
+Steganography can be used to conceal almost any type of digital content, including text, image, video or audio content. The secret data can be hidden inside almost any other type of digital content. The content to be concealed through steganography -- called hidden text -- is often encrypted before being incorporated into the innocuous-seeming cover text file or data stream. If not encrypted, the hidden text is commonly processed in some method to increase the difficulty of detecting the secret content.
+
+What are some examples of steganography?
+Steganography is practiced by those wishing to convey a secret message or code. While there are many legitimate uses for steganography, some malware developers use steganography to obscure the transmission of malicious code -- known as stegware.
+
+Forms of steganography have been used for centuries and include almost any technique for hiding a secret message in an otherwise harmless container. For example, using invisible ink to hide secret messages in otherwise inoffensive messages; hiding documents recorded on microdot, which can be as small as 1 millimeter in diameter; hiding messages on or inside legitimate-seeming correspondence; and even using multiplayer gaming environments to share information.
+
+How is steganography used today?
+In modern digital steganography, data is first encrypted or obfuscated, and then inserted using a special algorithm into data that is part of a particular file format, such as a JPEG image, audio or video file. The secret message can be embedded into ordinary data files in many ways. One technique is to hide data in bits that represent the same color pixels repeated in a row in an image file. By applying the encrypted data to this redundant data in an inconspicuous way, the result is an image file that appears identical to the original image, but has noise patterns of regular, unencrypted data.
+
+The practice of adding a watermark -- a trademark or other identifying data hidden in multimedia or other content files -- is a common use of steganography. Online publishers often use watermarking to identify the source of media files that are being shared without permission.
+
+While there are many different uses of steganography, including embedding sensitive information into file types, one of the most common techniques is to embed a text file into an image file. When done correctly, anyone viewing the image file should not see a difference between the original image file and the altered file; this is accomplished by storing the message with less significant bites in the data file. This process can be completed manually or by using a steganography tool.
+
+What are the advantages of steganography over cryptography?
+Steganography is distinct from cryptography. Using both together can help improve the security of the protected information and prevent detection of the secret communication. If steganographically hidden data is also encrypted, the data might still be safe from detection -- though the channel will no longer be safe from detection. There are advantages to using steganography combined with encryption over encryption-only communication.
+
+The primary advantage of using steganography to hide data over cryptography is that it helps obscure the fact that sensitive data is hidden in the file or other content carrying the hidden text. Whereas an encrypted file, message or network packet payload is clearly marked and identifiable as such, using steganographic techniques helps to obscure the presence of a secure channel.
+
+Steganography software
+Steganography software is used to perform a variety of functions, including the following:
+
+Hiding data, including encoding the data to prepare it to be hidden inside another file.
+Keeping track of which bits of the cover text file contain hidden data.
+Encrypting the data to be hidden.
+Extracting hidden data by its intended recipient.
+Proprietary and open source programs are available to do steganography. OpenStego is one open source steganography program. Other programs can be characterized by the types of data that can be hidden, as well as what types of files that data can be hidden inside. Some online steganography software tools include Xiao Steganography, used to hide secret files in BMP images or WAV files; Image Steganography, a JavaScript tool that hides images inside other image files; and Crypture, a command-line tool.What is steganography?
+Steganography is the technique of hiding data within an ordinary, nonsecret file or message to avoid detection; the hidden data is then extracted at its destination. Steganography use can be combined with encryption as an extra step for hiding or protecting data. The word steganography is derived from the Greek word steganos, meaning "hidden or covered," and the Greek root graph, meaning "to write."
+
+Steganography can be used to conceal almost any type of digital content, including text, image, video or audio content. The secret data can be hidden inside almost any other type of digital content. The content to be concealed through steganography -- called hidden text -- is often encrypted before being incorporated into the innocuous-seeming cover text file or data stream. If not encrypted, the hidden text is commonly processed in some method to increase the difficulty of detecting the secret content.
+
+What are some examples of steganography?
+Steganography is practiced by those wishing to convey a secret message or code. While there are many legitimate uses for steganography, some malware developers use steganography to obscure the transmission of malicious code -- known as stegware.
+
+Forms of steganography have been used for centuries and include almost any technique for hiding a secret message in an otherwise harmless container. For example, using invisible ink to hide secret messages in otherwise inoffensive messages; hiding documents recorded on microdot, which can be as small as 1 millimeter in diameter; hiding messages on or inside legitimate-seeming correspondence; and even using multiplayer gaming environments to share information.
+
+How is steganography used today?
+In modern digital steganography, data is first encrypted or obfuscated, and then inserted using a special algorithm into data that is part of a particular file format, such as a JPEG image, audio or video file. The secret message can be embedded into ordinary data files in many ways. One technique is to hide data in bits that represent the same color pixels repeated in a row in an image file. By applying the encrypted data to this redundant data in an inconspicuous way, the result is an image file that appears identical to the original image, but has noise patterns of regular, unencrypted data.
+
+The practice of adding a watermark -- a trademark or other identifying data hidden in multimedia or other content files -- is a common use of steganography. Online publishers often use watermarking to identify the source of media files that are being shared without permission.
+
+While there are many different uses of steganography, including embedding sensitive information into file types, one of the most common techniques is to embed a text file into an image file. When done correctly, anyone viewing the image file should not see a difference between the original image file and the altered file; this is accomplished by storing the message with less significant bites in the data file. This process can be completed manually or by using a steganography tool.
+
+What are the advantages of steganography over cryptography?
+Steganography is distinct from cryptography. Using both together can help improve the security of the protected information and prevent detection of the secret communication. If steganographically hidden data is also encrypted, the data might still be safe from detection -- though the channel will no longer be safe from detection. There are advantages to using steganography combined with encryption over encryption-only communication.
+
+The primary advantage of using steganography to hide data over cryptography is that it helps obscure the fact that sensitive data is hidden in the file or other content carrying the hidden text. Whereas an encrypted file, message or network packet payload is clearly marked and identifiable as such, using steganographic techniques helps to obscure the presence of a secure channel.
+
+Steganography software
+Steganography software is used to perform a variety of functions, including the following:
+
+Hiding data, including encoding the data to prepare it to be hidden inside another file.
+Keeping track of which bits of the cover text file contain hidden data.
+Encrypting the data to be hidden.
+Extracting hidden data by its intended recipient.
+Proprietary and open source programs are available to do steganography. OpenStego is one open source steganography program. Other programs can be characterized by the types of data that can be hidden, as well as what types of files that data can be hidden inside. Some online steganography software tools include Xiao Steganography, used to hide secret files in BMP images or WAV files; Image Steganography, a JavaScript tool that hides images inside other image files; and Crypture, a command-line tool.What is steganography?
+Steganography is the technique of hiding data within an ordinary, nonsecret file or message to avoid detection; the hidden data is then extracted at its destination. Steganography use can be combined with encryption as an extra step for hiding or protecting data. The word steganography is derived from the Greek word steganos, meaning "hidden or covered," and the Greek root graph, meaning "to write."
+
+Steganography can be used to conceal almost any type of digital content, including text, image, video or audio content. The secret data can be hidden inside almost any other type of digital content. The content to be concealed through steganography -- called hidden text -- is often encrypted before being incorporated into the innocuous-seeming cover text file or data stream. If not encrypted, the hidden text is commonly processed in some method to increase the difficulty of detecting the secret content.
+
+What are some examples of steganography?
+Steganography is practiced by those wishing to convey a secret message or code. While there are many legitimate uses for steganography, some malware developers use steganography to obscure the transmission of malicious code -- known as stegware.
+
+Forms of steganography have been used for centuries and include almost any technique for hiding a secret message in an otherwise harmless container. For example, using invisible ink to hide secret messages in otherwise inoffensive messages; hiding documents recorded on microdot, which can be as small as 1 millimeter in diameter; hiding messages on or inside legitimate-seeming correspondence; and even using multiplayer gaming environments to share information.
+
+How is steganography used today?
+In modern digital steganography, data is first encrypted or obfuscated, and then inserted using a special algorithm into data that is part of a particular file format, such as a JPEG image, audio or video file. The secret message can be embedded into ordinary data files in many ways. One technique is to hide data in bits that represent the same color pixels repeated in a row in an image file. By applying the encrypted data to this redundant data in an inconspicuous way, the result is an image file that appears identical to the original image, but has noise patterns of regular, unencrypted data.
+
+The practice of adding a watermark -- a trademark or other identifying data hidden in multimedia or other content files -- is a common use of steganography. Online publishers often use watermarking to identify the source of media files that are being shared without permission.
+
+While there are many different uses of steganography, including embedding sensitive information into file types, one of the most common techniques is to embed a text file into an image file. When done correctly, anyone viewing the image file should not see a difference between the original image file and the altered file; this is accomplished by storing the message with less significant bites in the data file. This process can be completed manually or by using a steganography tool.
+
+What are the advantages of steganography over cryptography?
+Steganography is distinct from cryptography. Using both together can help improve the security of the protected information and prevent detection of the secret communication. If steganographically hidden data is also encrypted, the data might still be safe from detection -- though the channel will no longer be safe from detection. There are advantages to using steganography combined with encryption over encryption-only communication.
+
+The primary advantage of using steganography to hide data over cryptography is that it helps obscure the fact that sensitive data is hidden in the file or other content carrying the hidden text. Whereas an encrypted file, message or network packet payload is clearly marked and identifiable as such, using steganographic techniques helps to obscure the presence of a secure channel.
+
+Steganography software
+Steganography software is used to perform a variety of functions, including the following:
+
+Hiding data, including encoding the data to prepare it to be hidden inside another file.
+Keeping track of which bits of the cover text file contain hidden data.
+Encrypting the data to be hidden.
+Extracting hidden data by its intended recipient.
+Proprietary and open source programs are available to do steganography. OpenStego is one open source steganography program. Other programs can be characterized by the types of data that can be hidden, as well as what types of files that data can be hidden inside. Some online steganography software tools include Xiao Steganography, used to hide secret files in BMP images or WAV files; Image Steganography, a JavaScript tool that hides images inside other image files; and Crypture, a command-line tool.What is steganography?
+Steganography is the technique of hiding data within an ordinary, nonsecret file or message to avoid detection; the hidden data is then extracted at its destination. Steganography use can be combined with encryption as an extra step for hiding or protecting data. The word steganography is derived from the Greek word steganos, meaning "hidden or covered," and the Greek root graph, meaning "to write."
+
+Steganography can be used to conceal almost any type of digital content, including text, image, video or audio content. The secret data can be hidden inside almost any other type of digital content. The content to be concealed through steganography -- called hidden text -- is often encrypted before being incorporated into the innocuous-seeming cover text file or data stream. If not encrypted, the hidden text is commonly processed in some method to increase the difficulty of detecting the secret content.
+
+What are some examples of steganography?
+Steganography is practiced by those wishing to convey a secret message or code. While there are many legitimate uses for steganography, some malware developers use steganography to obscure the transmission of malicious code -- known as stegware.
+
+Forms of steganography have been used for centuries and include almost any technique for hiding a secret message in an otherwise harmless container. For example, using invisible ink to hide secret messages in otherwise inoffensive messages; hiding documents recorded on microdot, which can be as small as 1 millimeter in diameter; hiding messages on or inside legitimate-seeming correspondence; and even using multiplayer gaming environments to share information.
+
+How is steganography used today?
+In modern digital steganography, data is first encrypted or obfuscated, and then inserted using a special algorithm into data that is part of a particular file format, such as a JPEG image, audio or video file. The secret message can be embedded into ordinary data files in many ways. One technique is to hide data in bits that represent the same color pixels repeated in a row in an image file. By applying the encrypted data to this redundant data in an inconspicuous way, the result is an image file that appears identical to the original image, but has noise patterns of regular, unencrypted data.
+
+The practice of adding a watermark -- a trademark or other identifying data hidden in multimedia or other content files -- is a common use of steganography. Online publishers often use watermarking to identify the source of media files that are being shared without permission.
+
+While there are many different uses of steganography, including embedding sensitive information into file types, one of the most common techniques is to embed a text file into an image file. When done correctly, anyone viewing the image file should not see a difference between the original image file and the altered file; this is accomplished by storing the message with less significant bites in the data file. This process can be completed manually or by using a steganography tool.
+
+What are the advantages of steganography over cryptography?
+Steganography is distinct from cryptography. Using both together can help improve the security of the protected information and prevent detection of the secret communication. If steganographically hidden data is also encrypted, the data might still be safe from detection -- though the channel will no longer be safe from detection. There are advantages to using steganography combined with encryption over encryption-only communication.
+
+The primary advantage of using steganography to hide data over cryptography is that it helps obscure the fact that sensitive data is hidden in the file or other content carrying the hidden text. Whereas an encrypted file, message or network packet payload is clearly marked and identifiable as such, using steganographic techniques helps to obscure the presence of a secure channel.
+
+Steganography software
+Steganography software is used to perform a variety of functions, including the following:
+
+Hiding data, including encoding the data to prepare it to be hidden inside another file.
+Keeping track of which bits of the cover text file contain hidden data.
+Encrypting the data to be hidden.
+Extracting hidden data by its intended recipient.
+Proprietary and open source programs are available to do steganography. OpenStego is one open source steganography program. Other programs can be characterized by the types of data that can be hidden, as well as what types of files that data can be hidden inside. Some online steganography software tools include Xiao Steganography, used to hide secret files in BMP images or WAV files; Image Steganography, a JavaScript tool that hides images inside other image files; and Crypture, a command-line tool.What is steganography?
+Steganography is the technique of hiding data within an ordinary, nonsecret file or message to avoid detection; the hidden data is then extracted at its destination. Steganography use can be combined with encryption as an extra step for hiding or protecting data. The word steganography is derived from the Greek word steganos, meaning "hidden or covered," and the Greek root graph, meaning "to write."
+
+Steganography can be used to conceal almost any type of digital content, including text, image, video or audio content. The secret data can be hidden inside almost any other type of digital content. The content to be concealed through steganography -- called hidden text -- is often encrypted before being incorporated into the innocuous-seeming cover text file or data stream. If not encrypted, the hidden text is commonly processed in some method to increase the difficulty of detecting the secret content.
+
+What are some examples of steganography?
+Steganography is practiced by those wishing to convey a secret message or code. While there are many legitimate uses for steganography, some malware developers use steganography to obscure the transmission of malicious code -- known as stegware.
+
+Forms of steganography have been used for centuries and include almost any technique for hiding a secret message in an otherwise harmless container. For example, using invisible ink to hide secret messages in otherwise inoffensive messages; hiding documents recorded on microdot, which can be as small as 1 millimeter in diameter; hiding messages on or inside legitimate-seeming correspondence; and even using multiplayer gaming environments to share information.
+
+How is steganography used today?
+In modern digital steganography, data is first encrypted or obfuscated, and then inserted using a special algorithm into data that is part of a particular file format, such as a JPEG image, audio or video file. The secret message can be embedded into ordinary data files in many ways. One technique is to hide data in bits that represent the same color pixels repeated in a row in an image file. By applying the encrypted data to this redundant data in an inconspicuous way, the result is an image file that appears identical to the original image, but has noise patterns of regular, unencrypted data.
+
+The practice of adding a watermark -- a trademark or other identifying data hidden in multimedia or other content files -- is a common use of steganography. Online publishers often use watermarking to identify the source of media files that are being shared without permission.
+
+While there are many different uses of steganography, including embedding sensitive information into file types, one of the most common techniques is to embed a text file into an image file. When done correctly, anyone viewing the image file should not see a difference between the original image file and the altered file; this is accomplished by storing the message with less significant bites in the data file. This process can be completed manually or by using a steganography tool.
+
+What are the advantages of steganography over cryptography?
+Steganography is distinct from cryptography. Using both together can help improve the security of the protected information and prevent detection of the secret communication. If steganographically hidden data is also encrypted, the data might still be safe from detection -- though the channel will no longer be safe from detection. There are advantages to using steganography combined with encryption over encryption-only communication.
+
+The primary advantage of using steganography to hide data over cryptography is that it helps obscure the fact that sensitive data is hidden in the file or other content carrying the hidden text. Whereas an encrypted file, message or network packet payload is clearly marked and identifiable as such, using steganographic techniques helps to obscure the presence of a secure channel.
+
+Steganography software
+Steganography software is used to perform a variety of functions, including the following:
+
+Hiding data, including encoding the data to prepare it to be hidden inside another file.
+Keeping track of which bits of the cover text file contain hidden data.
+Encrypting the data to be hidden.
+Extracting hidden data by its intended recipient.
+Proprietary and open source programs are available to do steganography. OpenStego is one open source steganography program. Other programs can be characterized by the types of data that can be hidden, as well as what types of files that data can be hidden inside. Some online steganography software tools include Xiao Steganography, used to hide secret files in BMP images or WAV files; Image Steganography, a JavaScript tool that hides images inside other image files; and Crypture, a command-line tool.What is steganography?
+Steganography is the technique of hiding data within an ordinary, nonsecret file or message to avoid detection; the hidden data is then extracted at its destination. Steganography use can be combined with encryption as an extra step for hiding or protecting data. The word steganography is derived from the Greek word steganos, meaning "hidden or covered," and the Greek root graph, meaning "to write."
+
+Steganography can be used to conceal almost any type of digital content, including text, image, video or audio content. The secret data can be hidden inside almost any other type of digital content. The content to be concealed through steganography -- called hidden text -- is often encrypted before being incorporated into the innocuous-seeming cover text file or data stream. If not encrypted, the hidden text is commonly processed in some method to increase the difficulty of detecting the secret content.
+
+What are some examples of steganography?
+Steganography is practiced by those wishing to convey a secret message or code. While there are many legitimate uses for steganography, some malware developers use steganography to obscure the transmission of malicious code -- known as stegware.
+
+Forms of steganography have been used for centuries and include almost any technique for hiding a secret message in an otherwise harmless container. For example, using invisible ink to hide secret messages in otherwise inoffensive messages; hiding documents recorded on microdot, which can be as small as 1 millimeter in diameter; hiding messages on or inside legitimate-seeming correspondence; and even using multiplayer gaming environments to share information.
+
+How is steganography used today?
+In modern digital steganography, data is first encrypted or obfuscated, and then inserted using a special algorithm into data that is part of a particular file format, such as a JPEG image, audio or video file. The secret message can be embedded into ordinary data files in many ways. One technique is to hide data in bits that represent the same color pixels repeated in a row in an image file. By applying the encrypted data to this redundant data in an inconspicuous way, the result is an image file that appears identical to the original image, but has noise patterns of regular, unencrypted data.
+
+The practice of adding a watermark -- a trademark or other identifying data hidden in multimedia or other content files -- is a common use of steganography. Online publishers often use watermarking to identify the source of media files that are being shared without permission.
+
+While there are many different uses of steganography, including embedding sensitive information into file types, one of the most common techniques is to embed a text file into an image file. When done correctly, anyone viewing the image file should not see a difference between the original image file and the altered file; this is accomplished by storing the message with less significant bites in the data file. This process can be completed manually or by using a steganography tool.
+
+What are the advantages of steganography over cryptography?
+Steganography is distinct from cryptography. Using both together can help improve the security of the protected information and prevent detection of the secret communication. If steganographically hidden data is also encrypted, the data might still be safe from detection -- though the channel will no longer be safe from detection. There are advantages to using steganography combined with encryption over encryption-only communication.
+
+The primary advantage of using steganography to hide data over cryptography is that it helps obscure the fact that sensitive data is hidden in the file or other content carrying the hidden text. Whereas an encrypted file, message or network packet payload is clearly marked and identifiable as such, using steganographic techniques helps to obscure the presence of a secure channel.
+
+Steganography software
+Steganography software is used to perform a variety of functions, including the following:
+
+Hiding data, including encoding the data to prepare it to be hidden inside another file.
+Keeping track of which bits of the cover text file contain hidden data.
+Encrypting the data to be hidden.
+Extracting hidden data by its intended recipient.
+Proprietary and open source programs are available to do steganography. OpenStego is one open source steganography program. Other programs can be characterized by the types of data that can be hidden, as well as what types of files that data can be hidden inside. Some online steganography software tools include Xiao Steganography, used to hide secret files in BMP images or WAV files; Image Steganography, a JavaScript tool that hides images inside other image files; and Crypture, a command-line tool.What is steganography?
+Steganography is the technique of hiding data within an ordinary, nonsecret file or message to avoid detection; the hidden data is then extracted at its destination. Steganography use can be combined with encryption as an extra step for hiding or protecting data. The word steganography is derived from the Greek word steganos, meaning "hidden or covered," and the Greek root graph, meaning "to write."
+
+Steganography can be used to conceal almost any type of digital content, including text, image, video or audio content. The secret data can be hidden inside almost any other type of digital content. The content to be concealed through steganography -- called hidden text -- is often encrypted before being incorporated into the innocuous-seeming cover text file or data stream. If not encrypted, the hidden text is commonly processed in some method to increase the difficulty of detecting the secret content.
+
+What are some examples of steganography?
+Steganography is practiced by those wishing to convey a secret message or code. While there are many legitimate uses for steganography, some malware developers use steganography to obscure the transmission of malicious code -- known as stegware.
+
+Forms of steganography have been used for centuries and include almost any technique for hiding a secret message in an otherwise harmless container. For example, using invisible ink to hide secret messages in otherwise inoffensive messages; hiding documents recorded on microdot, which can be as small as 1 millimeter in diameter; hiding messages on or inside legitimate-seeming correspondence; and even using multiplayer gaming environments to share information.
+
+How is steganography used today?
+In modern digital steganography, data is first encrypted or obfuscated, and then inserted using a special algorithm into data that is part of a particular file format, such as a JPEG image, audio or video file. The secret message can be embedded into ordinary data files in many ways. One technique is to hide data in bits that represent the same color pixels repeated in a row in an image file. By applying the encrypted data to this redundant data in an inconspicuous way, the result is an image file that appears identical to the original image, but has noise patterns of regular, unencrypted data.
+
+The practice of adding a watermark -- a trademark or other identifying data hidden in multimedia or other content files -- is a common use of steganography. Online publishers often use watermarking to identify the source of media files that are being shared without permission.
+
+While there are many different uses of steganography, including embedding sensitive information into file types, one of the most common techniques is to embed a text file into an image file. When done correctly, anyone viewing the image file should not see a difference between the original image file and the altered file; this is accomplished by storing the message with less significant bites in the data file. This process can be completed manually or by using a steganography tool.
+
+What are the advantages of steganography over cryptography?
+Steganography is distinct from cryptography. Using both together can help improve the security of the protected information and prevent detection of the secret communication. If steganographically hidden data is also encrypted, the data might still be safe from detection -- though the channel will no longer be safe from detection. There are advantages to using steganography combined with encryption over encryption-only communication.
+
+The primary advantage of using steganography to hide data over cryptography is that it helps obscure the fact that sensitive data is hidden in the file or other content carrying the hidden text. Whereas an encrypted file, message or network packet payload is clearly marked and identifiable as such, using steganographic techniques helps to obscure the presence of a secure channel.
+
+Steganography software
+Steganography software is used to perform a variety of functions, including the following:
+
+Hiding data, including encoding the data to prepare it to be hidden inside another file.
+Keeping track of which bits of the cover text file contain hidden data.
+Encrypting the data to be hidden.
+Extracting hidden data by its intended recipient.
+Proprietary and open source programs are available to do steganography. OpenStego is one open source steganography program. Other programs can be characterized by the types of data that can be hidden, as well as what types of files that data can be hidden inside. Some online steganography software tools include Xiao Steganography, used to hide secret files in BMP images or WAV files; Image Steganography, a JavaScript tool that hides images inside other image files; and Crypture, a command-line tool.What is steganography?
+Steganography is the technique of hiding data within an ordinary, nonsecret file or message to avoid detection; the hidden data is then extracted at its destination. Steganography use can be combined with encryption as an extra step for hiding or protecting data. The word steganography is derived from the Greek word steganos, meaning "hidden or covered," and the Greek root graph, meaning "to write."
+
+Steganography can be used to conceal almost any type of digital content, including text, image, video or audio content. The secret data can be hidden inside almost any other type of digital content. The content to be concealed through steganography -- called hidden text -- is often encrypted before being incorporated into the innocuous-seeming cover text file or data stream. If not encrypted, the hidden text is commonly processed in some method to increase the difficulty of detecting the secret content.
+
+What are some examples of steganography?
+Steganography is practiced by those wishing to convey a secret message or code. While there are many legitimate uses for steganography, some malware developers use steganography to obscure the transmission of malicious code -- known as stegware.
+
+Forms of steganography have been used for centuries and include almost any technique for hiding a secret message in an otherwise harmless container. For example, using invisible ink to hide secret messages in otherwise inoffensive messages; hiding documents recorded on microdot, which can be as small as 1 millimeter in diameter; hiding messages on or inside legitimate-seeming correspondence; and even using multiplayer gaming environments to share information.
+
+How is steganography used today?
+In modern digital steganography, data is first encrypted or obfuscated, and then inserted using a special algorithm into data that is part of a particular file format, such as a JPEG image, audio or video file. The secret message can be embedded into ordinary data files in many ways. One technique is to hide data in bits that represent the same color pixels repeated in a row in an image file. By applying the encrypted data to this redundant data in an inconspicuous way, the result is an image file that appears identical to the original image, but has noise patterns of regular, unencrypted data.
+
+The practice of adding a watermark -- a trademark or other identifying data hidden in multimedia or other content files -- is a common use of steganography. Online publishers often use watermarking to identify the source of media files that are being shared without permission.
+
+While there are many different uses of steganography, including embedding sensitive information into file types, one of the most common techniques is to embed a text file into an image file. When done correctly, anyone viewing the image file should not see a difference between the original image file and the altered file; this is accomplished by storing the message with less significant bites in the data file. This process can be completed manually or by using a steganography tool.
+
+What are the advantages of steganography over cryptography?
+Steganography is distinct from cryptography. Using both together can help improve the security of the protected information and prevent detection of the secret communication. If steganographically hidden data is also encrypted, the data might still be safe from detection -- though the channel will no longer be safe from detection. There are advantages to using steganography combined with encryption over encryption-only communication.
+
+The primary advantage of using steganography to hide data over cryptography is that it helps obscure the fact that sensitive data is hidden in the file or other content carrying the hidden text. Whereas an encrypted file, message or network packet payload is clearly marked and identifiable as such, using steganographic techniques helps to obscure the presence of a secure channel.
+
+Steganography software
+Steganography software is used to perform a variety of functions, including the following:
+
+Hiding data, including encoding the data to prepare it to be hidden inside another file.
+Keeping track of which bits of the cover text file contain hidden data.
+Encrypting the data to be hidden.
+Extracting hidden data by its intended recipient.
+Proprietary and open source programs are available to do steganography. OpenStego is one open source steganography program. Other programs can be characterized by the types of data that can be hidden, as well as what types of files that data can be hidden inside. Some online steganography software tools include Xiao Steganography, used to hide secret files in BMP images or WAV files; Image Steganography, a JavaScript tool that hides images inside other image files; and Crypture, a command-line tool.What is steganography?
+Steganography is the technique of hiding data within an ordinary, nonsecret file or message to avoid detection; the hidden data is then extracted at its destination. Steganography use can be combined with encryption as an extra step for hiding or protecting data. The word steganography is derived from the Greek word steganos, meaning "hidden or covered," and the Greek root graph, meaning "to write."
+
+Steganography can be used to conceal almost any type of digital content, including text, image, video or audio content. The secret data can be hidden inside almost any other type of digital content. The content to be concealed through steganography -- called hidden text -- is often encrypted before being incorporated into the innocuous-seeming cover text file or data stream. If not encrypted, the hidden text is commonly processed in some method to increase the difficulty of detecting the secret content.
+
+What are some examples of steganography?
+Steganography is practiced by those wishing to convey a secret message or code. While there are many legitimate uses for steganography, some malware developers use steganography to obscure the transmission of malicious code -- known as stegware.
+
+Forms of steganography have been used for centuries and include almost any technique for hiding a secret message in an otherwise harmless container. For example, using invisible ink to hide secret messages in otherwise inoffensive messages; hiding documents recorded on microdot, which can be as small as 1 millimeter in diameter; hiding messages on or inside legitimate-seeming correspondence; and even using multiplayer gaming environments to share information.
+
+How is steganography used today?
+In modern digital steganography, data is first encrypted or obfuscated, and then inserted using a special algorithm into data that is part of a particular file format, such as a JPEG image, audio or video file. The secret message can be embedded into ordinary data files in many ways. One technique is to hide data in bits that represent the same color pixels repeated in a row in an image file. By applying the encrypted data to this redundant data in an inconspicuous way, the result is an image file that appears identical to the original image, but has noise patterns of regular, unencrypted data.
+
+The practice of adding a watermark -- a trademark or other identifying data hidden in multimedia or other content files -- is a common use of steganography. Online publishers often use watermarking to identify the source of media files that are being shared without permission.
+
+While there are many different uses of steganography, including embedding sensitive information into file types, one of the most common techniques is to embed a text file into an image file. When done correctly, anyone viewing the image file should not see a difference between the original image file and the altered file; this is accomplished by storing the message with less significant bites in the data file. This process can be completed manually or by using a steganography tool.
+
+What are the advantages of steganography over cryptography?
+Steganography is distinct from cryptography. Using both together can help improve the security of the protected information and prevent detection of the secret communication. If steganographically hidden data is also encrypted, the data might still be safe from detection -- though the channel will no longer be safe from detection. There are advantages to using steganography combined with encryption over encryption-only communication.
+
+The primary advantage of using steganography to hide data over cryptography is that it helps obscure the fact that sensitive data is hidden in the file or other content carrying the hidden text. Whereas an encrypted file, message or network packet payload is clearly marked and identifiable as such, using steganographic techniques helps to obscure the presence of a secure channel.
+
+Steganography software
+Steganography software is used to perform a variety of functions, including the following:
+
+Hiding data, including encoding the data to prepare it to be hidden inside another file.
+Keeping track of which bits of the cover text file contain hidden data.
+Encrypting the data to be hidden.
+Extracting hidden data by its intended recipient.
+Proprietary and open source programs are available to do steganography. OpenStego is one open source steganography program. Other programs can be characterized by the types of data that can be hidden, as well as what types of files that data can be hidden inside. Some online steganography software tools include Xiao Steganography, used to hide secret files in BMP images or WAV files; Image Steganography, a JavaScript tool that hides images inside other image files; and Crypture, a command-line tool.What is steganography?
+Steganography is the technique of hiding data within an ordinary, nonsecret file or message to avoid detection; the hidden data is then extracted at its destination. Steganography use can be combined with encryption as an extra step for hiding or protecting data. The word steganography is derived from the Greek word steganos, meaning "hidden or covered," and the Greek root graph, meaning "to write."
+
+Steganography can be used to conceal almost any type of digital content, including text, image, video or audio content. The secret data can be hidden inside almost any other type of digital content. The content to be concealed through steganography -- called hidden text -- is often encrypted before being incorporated into the innocuous-seeming cover text file or data stream. If not encrypted, the hidden text is commonly processed in some method to increase the difficulty of detecting the secret content.
+
+What are some examples of steganography?
+Steganography is practiced by those wishing to convey a secret message or code. While there are many legitimate uses for steganography, some malware developers use steganography to obscure the transmission of malicious code -- known as stegware.
+
+Forms of steganography have been used for centuries and include almost any technique for hiding a secret message in an otherwise harmless container. For example, using invisible ink to hide secret messages in otherwise inoffensive messages; hiding documents recorded on microdot, which can be as small as 1 millimeter in diameter; hiding messages on or inside legitimate-seeming correspondence; and even using multiplayer gaming environments to share information.
+
+How is steganography used today?
+In modern digital steganography, data is first encrypted or obfuscated, and then inserted using a special algorithm into data that is part of a particular file format, such as a JPEG image, audio or video file. The secret message can be embedded into ordinary data files in many ways. One technique is to hide data in bits that represent the same color pixels repeated in a row in an image file. By applying the encrypted data to this redundant data in an inconspicuous way, the result is an image file that appears identical to the original image, but has noise patterns of regular, unencrypted data.
+
+The practice of adding a watermark -- a trademark or other identifying data hidden in multimedia or other content files -- is a common use of steganography. Online publishers often use watermarking to identify the source of media files that are being shared without permission.
+
+While there are many different uses of steganography, including embedding sensitive information into file types, one of the most common techniques is to embed a text file into an image file. When done correctly, anyone viewing the image file should not see a difference between the original image file and the altered file; this is accomplished by storing the message with less significant bites in the data file. This process can be completed manually or by using a steganography tool.
+
+What are the advantages of steganography over cryptography?
+Steganography is distinct from cryptography. Using both together can help improve the security of the protected information and prevent detection of the secret communication. If steganographically hidden data is also encrypted, the data might still be safe from detection -- though the channel will no longer be safe from detection. There are advantages to using steganography combined with encryption over encryption-only communication.
+
+The primary advantage of using steganography to hide data over cryptography is that it helps obscure the fact that sensitive data is hidden in the file or other content carrying the hidden text. Whereas an encrypted file, message or network packet payload is clearly marked and identifiable as such, using steganographic techniques helps to obscure the presence of a secure channel.
+
+Steganography software
+Steganography software is used to perform a variety of functions, including the following:
+
+Hiding data, including encoding the data to prepare it to be hidden inside another file.
+Keeping track of which bits of the cover text file contain hidden data.
+Encrypting the data to be hidden.
+Extracting hidden data by its intended recipient.
+Proprietary and open source programs are available to do steganography. OpenStego is one open source steganography program. Other programs can be characterized by the types of data that can be hidden, as well as what types of files that data can be hidden inside. Some online steganography software tools include Xiao Steganography, used to hide secret files in BMP images or WAV files; Image Steganography, a JavaScript tool that hides images inside other image files; and Crypture, a command-line tool.What is steganography?
+Steganography is the technique of hiding data within an ordinary, nonsecret file or message to avoid detection; the hidden data is then extracted at its destination. Steganography use can be combined with encryption as an extra step for hiding or protecting data. The word steganography is derived from the Greek word steganos, meaning "hidden or covered," and the Greek root graph, meaning "to write."
+
+Steganography can be used to conceal almost any type of digital content, including text, image, video or audio content. The secret data can be hidden inside almost any other type of digital content. The content to be concealed through steganography -- called hidden text -- is often encrypted before being incorporated into the innocuous-seeming cover text file or data stream. If not encrypted, the hidden text is commonly processed in some method to increase the difficulty of detecting the secret content.
+
+What are some examples of steganography?
+Steganography is practiced by those wishing to convey a secret message or code. While there are many legitimate uses for steganography, some malware developers use steganography to obscure the transmission of malicious code -- known as stegware.
+
+Forms of steganography have been used for centuries and include almost any technique for hiding a secret message in an otherwise harmless container. For example, using invisible ink to hide secret messages in otherwise inoffensive messages; hiding documents recorded on microdot, which can be as small as 1 millimeter in diameter; hiding messages on or inside legitimate-seeming correspondence; and even using multiplayer gaming environments to share information.
+
+How is steganography used today?
+In modern digital steganography, data is first encrypted or obfuscated, and then inserted using a special algorithm into data that is part of a particular file format, such as a JPEG image, audio or video file. The secret message can be embedded into ordinary data files in many ways. One technique is to hide data in bits that represent the same color pixels repeated in a row in an image file. By applying the encrypted data to this redundant data in an inconspicuous way, the result is an image file that appears identical to the original image, but has noise patterns of regular, unencrypted data.
+
+The practice of adding a watermark -- a trademark or other identifying data hidden in multimedia or other content files -- is a common use of steganography. Online publishers often use watermarking to identify the source of media files that are being shared without permission.
+
+While there are many different uses of steganography, including embedding sensitive information into file types, one of the most common techniques is to embed a text file into an image file. When done correctly, anyone viewing the image file should not see a difference between the original image file and the altered file; this is accomplished by storing the message with less significant bites in the data file. This process can be completed manually or by using a steganography tool.
+
+What are the advantages of steganography over cryptography?
+Steganography is distinct from cryptography. Using both together can help improve the security of the protected information and prevent detection of the secret communication. If steganographically hidden data is also encrypted, the data might still be safe from detection -- though the channel will no longer be safe from detection. There are advantages to using steganography combined with encryption over encryption-only communication.
+
+The primary advantage of using steganography to hide data over cryptography is that it helps obscure the fact that sensitive data is hidden in the file or other content carrying the hidden text. Whereas an encrypted file, message or network packet payload is clearly marked and identifiable as such, using steganographic techniques helps to obscure the presence of a secure channel.
+
+Steganography software
+Steganography software is used to perform a variety of functions, including the following:
+
+Hiding data, including encoding the data to prepare it to be hidden inside another file.
+Keeping track of which bits of the cover text file contain hidden data.
+Encrypting the data to be hidden.
+Extracting hidden data by its intended recipient.
+Proprietary and open source programs are available to do steganography. OpenStego is one open source steganography program. Other programs can be characterized by the types of data that can be hidden, as well as what types of files that data can be hidden inside. Some online steganography software tools include Xiao Steganography, used to hide secret files in BMP images or WAV files; Image Steganography, a JavaScript tool that hides images inside other image files; and Crypture, a command-line tool.What is steganography?
+Steganography is the technique of hiding data within an ordinary, nonsecret file or message to avoid detection; the hidden data is then extracted at its destination. Steganography use can be combined with encryption as an extra step for hiding or protecting data. The word steganography is derived from the Greek word steganos, meaning "hidden or covered," and the Greek root graph, meaning "to write."
+
+Steganography can be used to conceal almost any type of digital content, including text, image, video or audio content. The secret data can be hidden inside almost any other type of digital content. The content to be concealed through steganography -- called hidden text -- is often encrypted before being incorporated into the innocuous-seeming cover text file or data stream. If not encrypted, the hidden text is commonly processed in some method to increase the difficulty of detecting the secret content.
+
+What are some examples of steganography?
+Steganography is practiced by those wishing to convey a secret message or code. While there are many legitimate uses for steganography, some malware developers use steganography to obscure the transmission of malicious code -- known as stegware.
+
+Forms of steganography have been used for centuries and include almost any technique for hiding a secret message in an otherwise harmless container. For example, using invisible ink to hide secret messages in otherwise inoffensive messages; hiding documents recorded on microdot, which can be as small as 1 millimeter in diameter; hiding messages on or inside legitimate-seeming correspondence; and even using multiplayer gaming environments to share information.
+
+How is steganography used today?
+In modern digital steganography, data is first encrypted or obfuscated, and then inserted using a special algorithm into data that is part of a particular file format, such as a JPEG image, audio or video file. The secret message can be embedded into ordinary data files in many ways. One technique is to hide data in bits that represent the same color pixels repeated in a row in an image file. By applying the encrypted data to this redundant data in an inconspicuous way, the result is an image file that appears identical to the original image, but has noise patterns of regular, unencrypted data.
+
+The practice of adding a watermark -- a trademark or other identifying data hidden in multimedia or other content files -- is a common use of steganography. Online publishers often use watermarking to identify the source of media files that are being shared without permission.
+
+While there are many different uses of steganography, including embedding sensitive information into file types, one of the most common techniques is to embed a text file into an image file. When done correctly, anyone viewing the image file should not see a difference between the original image file and the altered file; this is accomplished by storing the message with less significant bites in the data file. This process can be completed manually or by using a steganography tool.
+
+What are the advantages of steganography over cryptography?
+Steganography is distinct from cryptography. Using both together can help improve the security of the protected information and prevent detection of the secret communication. If steganographically hidden data is also encrypted, the data might still be safe from detection -- though the channel will no longer be safe from detection. There are advantages to using steganography combined with encryption over encryption-only communication.
+
+The primary advantage of using steganography to hide data over cryptography is that it helps obscure the fact that sensitive data is hidden in the file or other content carrying the hidden text. Whereas an encrypted file, message or network packet payload is clearly marked and identifiable as such, using steganographic techniques helps to obscure the presence of a secure channel.
+
+Steganography software
+Steganography software is used to perform a variety of functions, including the following:
+
+Hiding data, including encoding the data to prepare it to be hidden inside another file.
+Keeping track of which bits of the cover text file contain hidden data.
+Encrypting the data to be hidden.
+Extracting hidden data by its intended recipient.
+Proprietary and open source programs are available to do steganography. OpenStego is one open source steganography program. Other programs can be characterized by the types of data that can be hidden, as well as what types of files that data can be hidden inside. Some online steganography software tools include Xiao Steganography, used to hide secret files in BMP images or WAV files; Image Steganography, a JavaScript tool that hides images inside other image files; and Crypture, a command-line tool.What is steganography?
+Steganography is the technique of hiding data within an ordinary, nonsecret file or message to avoid detection; the hidden data is then extracted at its destination. Steganography use can be combined with encryption as an extra step for hiding or protecting data. The word steganography is derived from the Greek word steganos, meaning "hidden or covered," and the Greek root graph, meaning "to write."
+
+Steganography can be used to conceal almost any type of digital content, including text, image, video or audio content. The secret data can be hidden inside almost any other type of digital content. The content to be concealed through steganography -- called hidden text -- is often encrypted before being incorporated into the innocuous-seeming cover text file or data stream. If not encrypted, the hidden text is commonly processed in some method to increase the difficulty of detecting the secret content.
+
+What are some examples of steganography?
+Steganography is practiced by those wishing to convey a secret message or code. While there are many legitimate uses for steganography, some malware developers use steganography to obscure the transmission of malicious code -- known as stegware.
+
+Forms of steganography have been used for centuries and include almost any technique for hiding a secret message in an otherwise harmless container. For example, using invisible ink to hide secret messages in otherwise inoffensive messages; hiding documents recorded on microdot, which can be as small as 1 millimeter in diameter; hiding messages on or inside legitimate-seeming correspondence; and even using multiplayer gaming environments to share information.
+
+How is steganography used today?
+In modern digital steganography, data is first encrypted or obfuscated, and then inserted using a special algorithm into data that is part of a particular file format, such as a JPEG image, audio or video file. The secret message can be embedded into ordinary data files in many ways. One technique is to hide data in bits that represent the same color pixels repeated in a row in an image file. By applying the encrypted data to this redundant data in an inconspicuous way, the result is an image file that appears identical to the original image, but has noise patterns of regular, unencrypted data.
+
+The practice of adding a watermark -- a trademark or other identifying data hidden in multimedia or other content files -- is a common use of steganography. Online publishers often use watermarking to identify the source of media files that are being shared without permission.
+
+While there are many different uses of steganography, including embedding sensitive information into file types, one of the most common techniques is to embed a text file into an image file. When done correctly, anyone viewing the image file should not see a difference between the original image file and the altered file; this is accomplished by storing the message with less significant bites in the data file. This process can be completed manually or by using a steganography tool.
+
+What are the advantages of steganography over cryptography?
+Steganography is distinct from cryptography. Using both together can help improve the security of the protected information and prevent detection of the secret communication. If steganographically hidden data is also encrypted, the data might still be safe from detection -- though the channel will no longer be safe from detection. There are advantages to using steganography combined with encryption over encryption-only communication.
+
+The primary advantage of using steganography to hide data over cryptography is that it helps obscure the fact that sensitive data is hidden in the file or other content carrying the hidden text. Whereas an encrypted file, message or network packet payload is clearly marked and identifiable as such, using steganographic techniques helps to obscure the presence of a secure channel.
+
+Steganography software
+Steganography software is used to perform a variety of functions, including the following:
+
+Hiding data, including encoding the data to prepare it to be hidden inside another file.
+Keeping track of which bits of the cover text file contain hidden data.
+Encrypting the data to be hidden.
+Extracting hidden data by its intended recipient.
+Proprietary and open source programs are available to do steganography. OpenStego is one open source steganography program. Other programs can be characterized by the types of data that can be hidden, as well as what types of files that data can be hidden inside. Some online steganography software tools include Xiao Steganography, used to hide secret files in BMP images or WAV files; Image Steganography, a JavaScript tool that hides images inside other image files; and Crypture, a command-line tool.
